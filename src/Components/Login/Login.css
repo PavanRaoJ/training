@@ -1,0 +1,184 @@
+.Login-Component-wrap
+{
+    z-index: 100;
+}
+
+
+
+.Login-Component-wrap {
+    list-style: none;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .Login-Component-wrap li {
+    margin: 1rem;
+  }
+  
+  .Login-Component-wrap a {
+    /* border: 10px solid transparent; */
+    color: #292929;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  .Login-Component-wrap a:hover,
+  .Login-Component-wrap a:active,
+  .Login-Component-wrap a.active {
+ 
+  }
+  
+  .Login-Component-wrap button {
+    cursor: pointer;
+    border: 1px solid #292929;
+    color: #292929;
+    background: transparent;
+    padding: 0.5rem;
+    font: inherit;
+  }
+  
+  .Login-Component-wrap button:focus {
+    outline: none;
+  }
+  
+  .Login-Component-wrap button:hover,
+  .Login-Component-wrap button:active {
+    background: #292929;
+    color: white;
+  }
+  
+
+
+
+
+.Login-form
+{   
+   height: 70vh;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: -2px 13px 12px 9px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%)
+}
+
+.Login-form-wrap
+{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.Login-form form{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-form form p
+{
+  
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+
+}
+
+.Email,.password
+{
+    font-weight: bold;
+    text-align: center;
+    border:2px solid;
+    font-size: 1rem;
+    border-radius: 4.5px;
+    padding: 5px;
+    color:rgb(44,45,90,.7); 
+    box-shadow: 4px 8px 5px rgb(44,45,90,.7);
+}
+
+
+.EmailError
+{
+  font-weight: bold;
+  text-align: center;
+  border:2px solid red;
+  font-size: 1rem;
+  border-radius: 4.5px;
+  padding: 5px;
+  color:rgb(44,45,90,.7); 
+}
+
+.passwordError
+{
+  font-weight: bold;
+  text-align: center;
+  border:2px solid red;
+  font-size: 1rem;
+  border-radius: 4.5px;
+  padding: 5px;
+  color:rgb(44,45,90,.7); 
+}
+
+
+
+.Login-form span
+{
+  font-weight: bold;
+}
+
+
+
+
+
+.Login-form form button
+{
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 4.5px;
+  padding: 15px;
+  position: relative;
+  top: 60px;
+  color: rgb(44,45,90,.7); 
+}
+
+
+.Login-form form button:hover,
+.Login-form form button:focus
+{
+  background-color: #636483; 
+  color: white;
+  box-shadow: -4px 4px 6px 6px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+@media screen and (max-width: 992px){
+  .Login-form{
+    width: 100%;
+    transition-duration: 1s;
+    transition-property: width;
+  }
+}
+
+.ErrorMsg
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 35px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: red;
+}
+
+input:required:focus:valid {
+  background:no-repeat 95% 50% lightgreen;
+  background-size: 25px;
+}
+
+input:focus:invalid {
+  background:  no-repeat 95% 50% lightsalmon;
+  background-size: 25px;
+}

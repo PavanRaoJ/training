@@ -1,0 +1,54 @@
+.Home-Heading
+{
+
+  padding-top: 10vh;
+}
+
+.Home-Wrap
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Home-Wrap p
+{
+  font-size: 2em;
+}
+
+.Home-Wrap p span
+{
+  font-size: 2em;
+}
+
+.Home-Nav-Button 
+{
+  color: rgb(44,45,90,.7);
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 5.5px;
+}
+
+.Home-Nav-Button:hover
+{
+  background-color: rgb(44,45,90,.7);
+  color:white;
+  box-shadow: -4px 4px 6px 6px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%)
+}
+
+
+.Home-Nav-Button>span
+{
+  padding-left: 20px;
+}
+
+.Home-Nav-buttons
+{
+  display: flex;
+  gap: 40px;
+}
